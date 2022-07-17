@@ -1,0 +1,29 @@
+/* Root for project colors */
+:root {
+    --orange-color: #FC997C;
+    --dark-blue-color: #2E4C6D;
+    --pink-color: #DADDFC;
+    --blue-color: #396EB0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--pink-color);
+}
+
+#box {
+    background: linear-gradient(145deg, #c4c7e3, #e9ecff);
+    border-radius: 25px;
+
+    border: 2px solid black;
+
+    /* padding: 10%; */
+    margin-top: 15%;
+    margin-left: 35%;
+    margin-right: 10%;
+    /* margin: 40%; */
+
+    text-align: center;
+    height: 200px;
+    width: 400px;
+}
